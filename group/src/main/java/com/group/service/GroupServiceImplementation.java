@@ -1,7 +1,7 @@
-package com.group.services;
+package com.group.service;
 
 import com.group.model.Group;
-import com.group.repositories.GroupRepository;
+import com.group.repository.GroupRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,8 +10,12 @@ import java.util.List;
 @Service
 public class GroupServiceImplementation implements GroupService {
 
+    private final GroupRepository groupRepository;
+
     @Autowired
-    private GroupRepository groupRepository;
+    public GroupServiceImplementation(GroupRepository groupRepository) {
+        this.groupRepository = groupRepository;
+    }
 
     @Override
     public List<Group> getAll() {

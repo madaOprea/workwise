@@ -1,4 +1,4 @@
-package com.group.services;
+package com.group.service;
 
 import com.group.model.Group;
 

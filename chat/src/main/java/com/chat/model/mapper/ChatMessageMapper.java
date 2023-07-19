@@ -3,7 +3,6 @@ package com.chat.model.mapper;
 import com.chat.model.ChatMessage;
 import com.chat.model.dto.*;
 import org.mapstruct.*;
-import org.mapstruct.ReportingPolicy;
 import org.mapstruct.factory.Mappers;
 
 @Mapper(componentModel = "spring",

@@ -14,7 +14,7 @@ public class Group {
     @Id
     @GeneratedValue(strategy= GenerationType.UUID)
     @Column(name="group_uuid")
-    private String id;
+    private String groupId;
 
     @Column
     private String admin;

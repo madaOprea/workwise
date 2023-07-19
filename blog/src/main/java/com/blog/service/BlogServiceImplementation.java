@@ -3,17 +3,18 @@ package com.blog.service;
 import com.blog.model.Blog;
 import com.blog.repository.BlogRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class BlogServiceImplementation implements BlogService {
 
-    @Autowired
-    private BlogRepository blogRepository;
+    private final BlogRepository blogRepository;
 
-    @Override
-    public List<Blog> getAll() {
-        return blogRepository.findAll();
+    @Autowired
+    public BlogServiceImplementation(BlogRepository blogRepository) {
+        this.blogRepository = blogRepository;
     }
 
     @Override
@@ -29,10 +30,5 @@ public class BlogServiceImplementation implements BlogService {
     @Override
     public Blog update(String id, Blog group) {
         return blogRepository.saveAndFlush(group);
-    }
-
-    @Override
-    public void deleteBlogById(String id) {
-        blogRepository.deleteById(id);
     }
 }

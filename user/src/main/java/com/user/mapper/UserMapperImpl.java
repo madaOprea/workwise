@@ -2,11 +2,11 @@ package com.user.mapper;
 
 import com.user.model.User;
 import com.user.model.dto.RequestedUserDto;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.processing.Generated;
 import java.util.ArrayList;
 import java.util.List;
-import javax.annotation.processing.Generated;
-
-import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
@@ -55,7 +55,7 @@ public class UserMapperImpl implements UserMapper {
 
         User.UserBuilder user = User.builder();
 
-        user.encodedPassword( encodePassword( requestedUserDto.getPassword() ) );
+        user.encodedPassword(UserMapper.encodePassword(requestedUserDto.getPassword()));
         user.name( requestedUserDto.getName() );
         user.email( requestedUserDto.getEmail() );
         user.active( requestedUserDto.isActive() );

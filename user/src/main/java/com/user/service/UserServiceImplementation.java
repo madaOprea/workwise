@@ -87,6 +87,7 @@ public class UserServiceImplementation implements UserService {
     @Override
     public User update(String id, RequestedUserDto userToUpdate) {
         log.debug(" *** " + this.getClass() + " *** deleteById ");
+
         if (!exists(id)) {
             throw new EntityNotFoundException(id);
         }

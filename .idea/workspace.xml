@@ -5,61 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65b2e63f-c83f-4811-8765-53aedab00c1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53e904e99d163333546c17ccc73bec409cf3863f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/3/53e904e99d163333546c17ccc73bec409cf3863f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/chat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workwise-start/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workwise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workwise-start/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/08ada6de14e0309cbb21878ec50eea0fd7e9796b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/162c2365d7b0ba2c095796450d79c6e5726b31bb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53e904e99d163333546c17ccc73bec409cf3863f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/8253b13a3b859da4ad66e1066806cb590dc3d06b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/863cb8592557b7783395fa9b3ee6faef10931238" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a384945d208088ca8f7e800a457ed76489f7ad0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/9811dac9cceda4b0cefcc6d3694a9eb8dd217dcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cda939e3259adc847ec8160565b109fd1d932bca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f60fe4fb7091a4caa9c178a9a3cae7d922849fb1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/8/08ada6de14e0309cbb21878ec50eea0fd7e9796b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/6/162c2365d7b0ba2c095796450d79c6e5726b31bb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/3/53e904e99d163333546c17ccc73bec409cf3863f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/2/8253b13a3b859da4ad66e1066806cb590dc3d06b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/6/863cb8592557b7783395fa9b3ee6faef10931238" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/a/8a384945d208088ca8f7e800a457ed76489f7ad0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/8/9811dac9cceda4b0cefcc6d3694a9eb8dd217dcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/d/cda939e3259adc847ec8160565b109fd1d932bca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/6/f60fe4fb7091a4caa9c178a9a3cae7d922849fb1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/blog/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/blog/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/blog/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/blog/model/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/blog/repository/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/blog/repository/BlogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/blog/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/blog/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/blog/service/BlogServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/blog/service/BlogServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/comment/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/group/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/group/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/group/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/group/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/group/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/group/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/src/main/java/com/chat/model/ChatMessageKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/main/java/com/chat/model/ChatMessageKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/src/main/java/com/chat/model/mapper/ChatMessageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/main/java/com/chat/model/mapper/ChatMessageMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/src/main/java/com/chat/model/mapper/ChatMessageMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/main/java/com/chat/model/mapper/ChatMessageMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/src/main/java/com/comment/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/comment/src/main/java/com/comment/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/src/main/java/com/comment/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/comment/src/main/java/com/comment/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/src/main/java/com/comment/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/comment/src/main/java/com/comment/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/src/main/java/com/comment/service/CommentServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/comment/src/main/java/com/comment/service/CommentServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group/src/main/java/com/group/controllers/GroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/group/src/main/java/com/group/controller/GroupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group/src/main/java/com/group/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/group/src/main/java/com/group/model/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group/src/main/java/com/group/repositories/GroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/group/src/main/java/com/group/repository/GroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group/src/main/java/com/group/services/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/group/src/main/java/com/group/service/GroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group/src/main/java/com/group/services/GroupServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/group/src/main/java/com/group/service/GroupServiceImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/WorkwiseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/WorkwiseApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/controller/WorkwiseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/controller/WorkwiseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/dto/ChatDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/dto/ChatDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/dto/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/dto/Friend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/dto/FriendshipDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/dto/FriendshipDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/dto/GroupDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/dto/GroupDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/dto/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/model/Blog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/model/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/model/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/model/Friendship.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/model/Friendship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/model/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/model/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/model/UserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/service/BlogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/service/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/service/ChatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/service/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/service/GroupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workwise/service/WorkwiseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/service/WorkwiseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/message" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/user/controller/FriendshipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/user/controller/FriendshipController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/templates/registrationForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/user/mapper/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/user/mapper/UserMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/user/service/UserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/user/service/UserServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/WorkwiseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/workwise-start/src/main/java/com/workwise/WorkwiseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workwise.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workwise.postman_collection.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +90,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2SnWKu6fIOUOtBWZCuCjA1D073A" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -99,24 +106,103 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
     "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "/Users/madalinaoprea/Documents/workspace-for-java/workwise/comment/src/main/java",
+    "last_opened_file_path": "/Users/madalinaoprea/Documents/workspace-for-java/workwise/workwise-start/src/main/resources",
     "mysql-explain.agentPath": "/Users/madalinaoprea/Library/Application Support/JetBrains/IdeaIC2023.1/plugins/mysql-explain-intellij-plugin/lib/mysql-explain-agent-1.0-jar-with-dependencies.jar",
     "mysql-explain.existMysqlJar": "true",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "project.propDebugger",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/comment/src/main/java" />
-      <recent name="$PROJECT_DIR$/workwise-start/src/main/java" />
+      <recent name="$PROJECT_DIR$/workwise-start/src/main/resources" />
       <recent name="$PROJECT_DIR$/user/src/main" />
-      <recent name="$PROJECT_DIR$/user/src/main/java" />
-      <recent name="$PROJECT_DIR$/group/src/main/java/com" />
+      <recent name="$PROJECT_DIR$/group/src/main/resources" />
+      <recent name="$PROJECT_DIR$/comment/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workwise-start/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CommentApplication">
+    <configuration name="ChatApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chat.ChatApplication" />
+      <module name="chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.comment.CommentApplication" />
+      <module name="comment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.comment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.group.GroupApplication" />
+      <module name="group" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.user.UserApplication" />
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkwiseApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.workwise.WorkwiseApplication" />
+      <module name="workwise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.workwise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CommentApplication" />
+        <item itemvalue="Application.GroupApplication" />
+        <item itemvalue="Application.UserApplication" />
+        <item itemvalue="Application.WorkwiseApplication" />
+        <item itemvalue="Application.ChatApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -128,5 +214,9 @@
       <updated>1689782765680</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

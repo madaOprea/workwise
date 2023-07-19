@@ -8,7 +8,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Data
 @Embeddable
-@NoArgsConstructor
+@NoArgsConstructor(force = true)
 public class ChatMessageKeys implements Serializable {
 
     @NonNull

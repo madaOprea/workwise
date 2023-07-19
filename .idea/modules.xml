@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/chat/chat.iml" filepath="$PROJECT_DIR$/chat/chat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/comment.iml" filepath="$PROJECT_DIR$/comment.iml" />
       <module fileurl="file://$PROJECT_DIR$/user.iml" filepath="$PROJECT_DIR$/user.iml" />
       <module fileurl="file://$PROJECT_DIR$/workwise.iml" filepath="$PROJECT_DIR$/workwise.iml" />
     </modules>

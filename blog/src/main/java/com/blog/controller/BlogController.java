@@ -1,11 +1,12 @@
 package com.blog.controller;
 
-import com.blog.service.BlogService;
 import com.blog.model.Blog;
+import com.blog.service.BlogService;
 import jakarta.validation.Valid;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.*;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,8 +16,12 @@ import java.util.List;
 @RequestMapping("/blog")
 public class BlogController {
 
+    private final BlogService blogService;
+
     @Autowired
-    private BlogService blogService;
+    public BlogController(BlogService blogService) {
+        this.blogService = blogService;
+    }
 
     @GetMapping
     public ResponseEntity<List<Blog>> getAllBlogsByUser(String userId) {
@@ -26,7 +31,7 @@ public class BlogController {
         return ResponseEntity.status(HttpStatus.OK).body(group);
     }
 
-    @PostMapping("/saveBlog")
+    @PostMapping
     public ResponseEntity<Blog> saveBlog(@RequestBody @Valid Blog blog) {
         log.info("***"  + this.getClass() + " saveBlog /n ");
 

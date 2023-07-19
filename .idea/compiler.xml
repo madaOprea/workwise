@@ -7,6 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="comment" />
+        <module name="workwise-start" />
         <module name="user" />
         <module name="group" />
       </profile>
@@ -29,10 +31,11 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="blog" options="-parameters" />
       <module name="chat" options="-parameters" />
-      <module name="comment" options="" />
+      <module name="comment" options="-parameters" />
       <module name="group" options="-parameters" />
       <module name="user" options="-parameters" />
       <module name="workwise" options="" />
+      <module name="workwise-start" options="-parameters" />
     </option>
   </component>
 </project>

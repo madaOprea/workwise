@@ -14,7 +14,7 @@ public class CommentServiceImplementation implements CommentService {
     private CommentRepository commentRepository;
 
     @Override
-    public List<Comment> getAll() {
+    public List<Comment> getAllComments() {
         return commentRepository.findAll();
     }
 
@@ -29,8 +29,7 @@ public class CommentServiceImplementation implements CommentService {
     }
 
     @Override
-    public void deleteBlogById(String id) {
+    public void deleteCommentById(String id) {
         commentRepository.deleteById(id);
     }
-
 }

@@ -1,4 +1,4 @@
-package com.group.repositories;
+package com.group.repository;
 
 import com.group.model.Group;
 import org.springframework.data.jpa.repository.JpaRepository;

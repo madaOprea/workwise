@@ -1,6 +1,5 @@
 package com.blog.model;
 
-import com.comment.model.Comment;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -28,5 +27,5 @@ public class Blog {
     @Column(name="priority")
     private String priority;
 
-    private List<Comment> commentsList;
+    private List<String> commentsList;
 }

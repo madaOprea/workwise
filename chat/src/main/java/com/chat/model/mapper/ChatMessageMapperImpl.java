@@ -1,8 +1,7 @@
 package com.chat.model.mapper;
 
 import com.chat.model.ChatMessage;
-import com.chat.model.dto.ChatMessageRequestDto;
-import com.chat.model.dto.ChatMessageResponseDto;
+import com.chat.model.dto.*;
 import org.springframework.stereotype.Component;
 
 @Component

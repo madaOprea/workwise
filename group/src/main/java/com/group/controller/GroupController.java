@@ -1,7 +1,7 @@
-package com.group.controllers;
+package com.group.controller;
 
 import com.group.model.Group;
-import com.group.services.GroupService;
+import com.group.service.GroupService;
 import jakarta.validation.Valid;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,8 +15,12 @@ import java.util.List;
 @RequestMapping("/group")
 public class GroupController {
 
+    private final GroupService groupService;
+
     @Autowired
-    private GroupService groupService;
+    public GroupController(GroupService groupService) {
+        this.groupService = groupService;
+    }
 
     @GetMapping
     public ResponseEntity<List<Group>> getAllByAdmin(String adminId) {
@@ -26,7 +30,7 @@ public class GroupController {
         return ResponseEntity.status(HttpStatus.OK).body(group);
     }
 
-    @PostMapping("/saveGroup")
+    @PostMapping
     public ResponseEntity<Group> saveGroup(@RequestBody @Valid Group group) {
         log.info("***"  + this.getClass() + " saveGroup /n ");
 
