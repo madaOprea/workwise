@@ -1,7 +1,6 @@
 package com.user.controller;
 
-import com.user.model.Friendship;
-import com.user.model.Status;
+import com.user.model.*;
 import com.user.service.FriendshipService;
 import lombok.*;
 import lombok.extern.java.Log;
@@ -9,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import java.util.*;
 
 @AllArgsConstructor
 @Log
