@@ -4,15 +4,9 @@ import com.user.model.User;
 import com.user.model.dto.RequestedUserDto;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.processing.Generated;
 import java.util.ArrayList;
 import java.util.List;
 
-@Generated(
-    value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-04-17T22:02:50+0300",
-    comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17 (Oracle Corporation)"
-)
 @Component
 public class UserMapperImpl implements UserMapper {
 

@@ -4,16 +4,11 @@ import com.user.model.Friendship;
 import com.user.model.User;
 import com.user.model.dto.FriendshipDto;
 import com.user.model.dto.RequestedUserDto;
-import java.util.ArrayList;
-import java.util.List;
-import javax.annotation.processing.Generated;
 import org.springframework.stereotype.Component;
 
-@Generated(
-    value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-04-17T22:02:50+0300",
-    comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17 (Oracle Corporation)"
-)
+import java.util.ArrayList;
+import java.util.List;
+
 @Component
 public class FriendshipMapperImpl implements FriendshipMapper {
 
