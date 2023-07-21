@@ -1,8 +1,8 @@
-package com.chat.controllers;
+package com.chat.controller;
 
 import com.chat.model.ChatMessage;
 import com.chat.model.dto.*;
-import com.chat.services.ChatMessageService;
+import com.chat.service.ChatMessageService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;

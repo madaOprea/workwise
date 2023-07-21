@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @Entity
 @IdClass(ChatMessageKeys.class)
 @NoArgsConstructor
-@Table(name = "chat")
+@Table(name = "chats")
 public class ChatMessage {
 
     @Id

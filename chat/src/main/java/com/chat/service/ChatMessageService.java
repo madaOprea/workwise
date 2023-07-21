@@ -1,4 +1,4 @@
-package com.chat.services;
+package com.chat.service;
 
 import com.chat.model.ChatMessage;
 import com.chat.model.dto.*;

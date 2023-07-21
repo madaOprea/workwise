@@ -1,8 +1,8 @@
-package com.chat.services;
+package com.chat.service;
 
 import com.chat.model.*;
 import com.chat.model.dto.*;
-import com.chat.repositories.ChatMessageRepository;
+import com.chat.repository.ChatMessageRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
