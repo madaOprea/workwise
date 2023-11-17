@@ -1,7 +1,7 @@
 package com.user.model;
 
+import com.user.utils.annotations.EmailValidator;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotNull;
 import lombok.*;
 
 import java.time.LocalDateTime;
@@ -26,9 +26,9 @@ public class User {
     private String encodedPassword;
 
     @Column
+    @EmailValidator
     private String email;
 
-    @NotNull
     @Column
     private Boolean active;
 

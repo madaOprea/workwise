@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="chat" />
         <module name="comment" />
         <module name="workwise-start" />
         <module name="blog" />
         <module name="user" />
-        <module name="chat" />
+        <module name="transaction" />
         <module name="group" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="chat" options="-parameters" />
       <module name="comment" options="-parameters" />
       <module name="group" options="-parameters" />
+      <module name="transaction" options="-parameters" />
       <module name="user" options="-parameters" />
       <module name="workwise" options="" />
       <module name="workwise-start" options="-parameters" />

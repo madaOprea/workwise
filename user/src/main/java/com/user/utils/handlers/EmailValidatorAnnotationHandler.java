@@ -1,10 +1,14 @@
 package com.user.utils.handlers;
 
+import com.user.utils.annotations.EmailValidator;
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
+import jakarta.validation.constraintvalidation.SupportedValidationTarget;
+import jakarta.validation.constraintvalidation.ValidationTarget;
+
 import java.util.Objects;
 
-import com.user.utils.annotations.EmailValidator;
-import jakarta.validation.*;
-
+@SupportedValidationTarget(ValidationTarget.PARAMETERS)
 public class EmailValidatorAnnotationHandler implements ConstraintValidator<EmailValidator, String> {
 
     private EmailValidator email;
