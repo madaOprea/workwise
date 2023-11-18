@@ -17,8 +17,8 @@ public class UserMapperImpl implements UserMapper {
         }
 
         List<RequestedUserDto> list = new ArrayList<RequestedUserDto>( usersList.size() );
-        for ( User user : usersList ) {
-            list.add( toRequestedUserDto( user ) );
+        for (User user : usersList ) {
+            list.add(toRequestedUserDto(user));
         }
 
         return list;

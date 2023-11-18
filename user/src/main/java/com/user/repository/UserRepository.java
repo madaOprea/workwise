@@ -7,7 +7,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository("userRepository")
 public interface UserRepository extends JpaRepository<User, String> {
-
     User findUserById(String userId);
     @Query(value = "select * from users order by created_date desc LIMIT 1", nativeQuery = true)
     User findTheLastUserAdded();
