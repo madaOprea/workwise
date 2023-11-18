@@ -20,7 +20,7 @@ public class FriendshipMapperImpl implements FriendshipMapper {
 
         FriendshipDto.FriendshipDtoBuilder friendshipDto = FriendshipDto.builder();
 
-        friendshipDto.id( friendship.getId() );
+        friendshipDto.id(friendship.getId());
         friendshipDto.user( userToRequestedUserDto( friendship.getUser() ) );
         friendshipDto.friend( userToRequestedUserDto( friendship.getFriend() ) );
         friendshipDto.status( friendship.getStatus() );
